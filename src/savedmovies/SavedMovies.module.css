@@ -6,3 +6,8 @@
 .star:hover {
   color: orange;
 }
+
+li {
+  display: flex;
+  flex-direction: column;
+}
