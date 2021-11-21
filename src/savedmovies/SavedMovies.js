@@ -62,7 +62,7 @@ const SavedMovies = (props) => {
   return (
     <div>
       {props.savedMovies && props.savedMovies.length > 0 ? (
-        <ul>
+        <ul class="saved_ul">
           {props.savedMovies.map((movie) => (
             <MovieItem
               movie={movie}

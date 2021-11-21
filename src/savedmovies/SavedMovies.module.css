@@ -10,4 +10,9 @@
 li {
   display: flex;
   flex-direction: column;
+  padding: 10px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 9px 9px 18px #c4c4c4, -9px -9px 18px #ffffff;
+  margin-top: 3%;
 }
